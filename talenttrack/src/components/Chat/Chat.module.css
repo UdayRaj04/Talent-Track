@@ -83,3 +83,11 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 600px) {
+  .App { width: 90%;
+  margin-left: auto;
+margin-right: auto;}
+.Title {
+  font-size: medium;
+}
+}

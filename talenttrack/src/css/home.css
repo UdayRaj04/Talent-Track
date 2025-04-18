@@ -122,12 +122,35 @@
   
   /* Responsive for smaller screens */
   @media (max-width: 1024px) {
+    .a{
+      width: 94%;
+      margin-right: 3%;
+      margin-left: 3%;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      background-color: hsl(180, 100%, 50%);
+      border-radius: 20px;
+  }
     .card {
       grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
     }
   }
   
   @media (max-width: 640px) {
+    .cardcontainer{
+      justify-content: center;
+    }
+    .a{
+      width: 94%;
+      margin-right: 3%;
+      margin-left: 3%;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      background-color: hsl(180, 100%, 50%);
+      border-radius: 20px;
+  }
     .card {
       grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
     }
@@ -138,6 +161,16 @@
 
 
   @media screen and (max-width:1000px) {
+    .a{
+      width: 94%;
+      margin-right: 3%;
+      margin-left: 3%;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      background-color: hsl(180, 100%, 50%);
+      border-radius: 20px;
+  }
     .hero-section{
         max-width: 400px;
     }

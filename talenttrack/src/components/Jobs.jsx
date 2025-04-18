@@ -11,6 +11,22 @@ import { setFilterQuery } from "../redux/jobSlice";
 //const jobsArray = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const Jobs = () => {
+    const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  const toggleCollapse = () => {
+    if (isMobile) setIsCollapsed(!isCollapsed);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 640);
+    };
+
+    handleResize(); // set initially
+    window.addEventListener("resize", handleResize); // update on resize
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
     //const { allJobs } = useSelector(store => store.job);
     const { allJobs, searchedQuery } = useSelector(store => store.job);
@@ -47,9 +63,25 @@ const Jobs = () => {
 
     return (<>
         <div className="ab">
-            <div className="filter">
-                <Filtercard />
-            </div>
+        <div className='bc'>
+        {isMobile && (
+        <button
+          type="button"
+          className="collapsible"
+          onClick={toggleCollapse}
+        >
+          Filter--
+        </button>
+      )}
+
+      <div
+        className="filter"
+        style={{
+          display: isMobile ? (isCollapsed ? "block" : "none") : "block",
+        }}
+      >
+        <Filtercard />
+      </div></div>
             <div className="arr">
             {/* {
             filterJobs.map((job) => (

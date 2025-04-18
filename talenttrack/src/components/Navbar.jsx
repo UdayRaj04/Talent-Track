@@ -116,7 +116,7 @@ const Navbar = () => {
       <div className='mobile'>
         <div class="popover__wrapper">
           <button class="popover__button">
-            <img src="profile.png" alt="Avatar" class="avatar"></img></button>
+            <img src="nav.png" alt="nav" class="avatar"></img></button>
           <div class="popover__content">
             <div>
               {/* <ul className="x">

@@ -106,3 +106,11 @@ section{
 .save-pdf-btn:hover {
     background: #005bb5;
 }
+
+@media screen and (max-width:800px) {
+    .resume-container {width: 95%;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+
+}
