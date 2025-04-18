@@ -1,0 +1,86 @@
+/* General Styling */
+.job-containerr {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Job Title */
+.job-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Job Details Grid */
+.job-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.job-details p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Apply Button */
+.apply-button {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    width: 80%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.apply-button.enabled {
+    background: #7209b7;
+    color: white;
+}
+
+.apply-button.enabled:hover {
+    background: #5f32ad;
+}
+
+.apply-button.disabled {
+    background-color: aqua;
+    color: white;
+    cursor: not-allowed;
+}
+
+/* Job Description */
+.job-description {
+    margin-top: 20px;
+}
+
+.job-description h2 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job-description p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}

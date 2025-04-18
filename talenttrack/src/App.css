@@ -1,0 +1,18 @@
+
+.a{
+  height: 100%;
+  width: 100%;
+  border: black ;
+}
+.bg{
+  background-image: url("../public/bg4.png");
+  background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    width: 100%;
+       align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}

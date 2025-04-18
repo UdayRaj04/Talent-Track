@@ -1,0 +1,85 @@
+.company-setup-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(221, 245, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .company-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background:  #82a8ff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .back-button:hover {
+    background: #bbb;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 12px;
+    background-color: #142468;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

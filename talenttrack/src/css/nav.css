@@ -1,0 +1,260 @@
+.x {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.xx{
+    padding-left: 5vw;
+    display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    text-align: center;
+    padding: 3% 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    padding: 3% 3%;
+    background-color: #6bdbed;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #18437b;
+    color: white ;
+}
+
+.y {
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+    /* max-width: 80rem;         */
+    height: 4rem;
+}
+
+.z {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#ab {
+    font-family: monospace;
+    font-style: bold;
+    font-size: 50px;
+    -webkit-text-fill-color: #18437b;
+}
+
+#a {
+    font-family: monospace;
+    font-size: 50px;
+    -webkit-text-fill-color: hsl(180, 100%, 50%);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #18437b;
+}
+
+#aba {
+    font-family: monospace;
+    font-style: bold;
+    font-size:30px;
+    -webkit-text-fill-color: #18437b;
+}
+
+#aa {
+    font-family: monospace;
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(0, 255, 255);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #18437b;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* .abc {
+    display: flex;
+    gap: 1rem;
+} */
+
+
+.popover__button  {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 50px;
+    /* Adjust size */
+    height: 50px;
+    /* Adjust size */
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+.popover__wrapper {
+    /* padding-left: 30%; */
+    float: right;
+    position:absolute;
+    margin-top: .8rem;
+    /* display: inline-block; */
+
+}
+.popover__wrapper p{
+    color: #101010;
+}
+
+.popover__content{
+    margin-top: 2%;
+    margin-left: 100%;
+    /* margin-left: 70%; */
+
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -50px;
+    transform: translate(0, 10px);
+    background-color: hsl(180, 100%, 50%);
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+/* 
+.popover__content:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #22b1aa transparent;
+} */
+
+.popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -12px);
+}
+
+.butout {
+    background-color:#18437b;
+    color: white;
+    /* Green */
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.butout:hover {
+    background-color: #0ec8d2d2;
+}
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .z{
+        padding-left: 20%;
+    }
+    .zx{
+        display: none;
+    }
+    .popover__wrapperss {
+        margin-top: .8rem;
+        /* display: inline-block; */
+    
+    }
+    .popover__buttonss {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        width: 50px;
+        /* Adjust size */
+        height: 50px;
+        /* Adjust size */
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .popover__contentss {
+        margin-top: 2%;
+        position: absolute;
+    
+        opacity: 0;
+        visibility: hidden;
+        left: -50px;
+        transform: translate(0, 10px);
+        background-color: #22afb183;
+        padding: 1.5rem;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    .popover__wrapperss {
+        position: relative;
+        padding:0;
+    }
+    .popover__buttonss{
+        position: relative;
+        float: right;
+    }
+    .mobile{
+        position: relative;
+        display: flex;
+        padding-left: 15%;
+        gap: 15%;
+    }
+    .y{
+        display: none;
+    }
+
+    .mobile-a{
+        margin:5%;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+}

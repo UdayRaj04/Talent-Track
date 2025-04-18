@@ -1,0 +1,75 @@
+.job-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff45;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .job-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-title {
+    width: 60%;
+    background-color: #142468;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input,
+  .company-select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .company-select {
+    width: 100%;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color:  #142468;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .warning-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

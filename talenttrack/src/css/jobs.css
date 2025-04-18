@@ -1,0 +1,83 @@
+.ab{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.filter{
+    width: 20%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.btna{
+    background-color: hsl(201, 100%, 50%);
+    border: white;
+    padding: 10px;
+    margin: 10px;
+}
+.ok{
+    margin-left:auto;
+    margin-right: auto;
+}
+.abbb{
+  padding-left: 10px;
+}
+
+.done{
+  justify-content: center;
+    display: flex;
+}
+.av{
+    margin-left: 10%;
+    padding: 0;
+
+    width: 70px;
+    height: 70px;
+
+}
+.job{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .badge {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /* margin: 10px; */
+    background-color: hsl(180, 100%, 50%);
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .cardd{
+    width: 300px;
+    background-color: rgb(215, 250, 250);
+    padding: 15px;
+    border: gray 1px;
+    box-shadow: 5px 5px rgba(9, 9, 104, 0.337);
+    cursor: pointer;
+  }
+  .fo{
+    font-size:  18px;
+    font-weight:bolder;
+    font-family: monospace;
+  }
+
+  /* Responsive for smaller screens */
+  @media (max-width: 1024px) {
+    .job {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .job {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+  }
+  

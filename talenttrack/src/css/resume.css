@@ -1,0 +1,108 @@
+.resume-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+section{
+    
+    width: 80%;
+}
+.sectiondiv{
+    justify-items: center;
+}
+
+.resume-header {
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+}
+
+.resume-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+.resume-header p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.resume-section {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.resume-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.resume-section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #0073e6;
+    margin-top: 5px;
+}
+
+.resume-section p, .resume-section ul {
+    margin-left: 10%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.resume-section ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.save-pdf-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.save-pdf-btn:hover {
+    background: #005bb5;
+}

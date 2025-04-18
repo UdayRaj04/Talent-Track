@@ -1,0 +1,96 @@
+.job-container {
+    min-height: 75vh;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .new-job-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .new-job-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-title {
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000000;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .job-table {
+    background-color: #dff2ff;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .job-table th, .job-table td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .job-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .job-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .applicants-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .applicants-btn:hover {
+    background-color: #138496;
+  }
+  

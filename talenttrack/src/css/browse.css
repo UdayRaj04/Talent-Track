@@ -1,0 +1,22 @@
+.job{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+  }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 1024px) {
+        .job {
+          grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        }
+      }
+      
+      @media (max-width: 640px) {
+        .job {
+          grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+        }
+      }
+      

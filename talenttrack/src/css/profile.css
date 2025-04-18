@@ -1,0 +1,149 @@
+.profile-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.avatarr {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #0073e6;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.profile-header p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.edit-profile-btn {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.edit-profile-btn:hover {
+    background: #005bb5;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-info span {
+    font-size: 16px;
+    color: #444;
+}
+
+.skills-section {
+    margin-top: 20px;
+}
+
+.skills-section h1 {
+    font-size: 20px;
+    color: #0073e6;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills-container h1 {
+    background: #0073e6;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.resume-section h1 {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.applied-jobs-section {
+    margin-top: 20px;
+}
+
+.applied-jobs-section h1 {
+    font-size: 20px;
+    color: #0073e6;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+.job{
+    margin-top: 3%;
+}
+
+
+
+#a{
+    width: 70px;
+    height: 70px;
+}
+table{
+    border-collapse:collapse ;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+}
+tr, td, th {
+    border-collapse: collapse;
+    border: 2px solid black;
+    align-items: center;
+    padding: .5vw 2vw;
+   
+
+}
+.data{
+    height: auto;
+    margin: 5% 0%;
+}
+.but{
+    color: #ffffff;
+    border: none;
+    border-radius: 10%;
+    background-color: #0073e6;
+    padding: 4%;
+}
+
