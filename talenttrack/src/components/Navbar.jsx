@@ -140,15 +140,15 @@ const Navbar = () => {
                             )
             :(
               <div class="mobile-a">
-                <a class="active" href="/"  onClick={()=>{dispatch(setFilterQuery("")); dispatch(setSearchedQuery(""))}}  >Home</a><br></br>
+                <NavLink class="active" to="/"  onClick={()=>{dispatch(setFilterQuery("")); dispatch(setSearchedQuery(""))}}  >Home</NavLink><br></br>
                 {user &&
                   <div>
-                    <a href="/resume">Resume</a><br></br>
+                    <NavLink to="/resume">Resume</NavLink><br></br>
                   </div>
                 }
-                <a href="/job">Jobs</a><br></br>
-                <a href="/browse"  onClick={()=>{dispatch(setFilterQuery("")); dispatch(setSearchedQuery(""))}}  >browes</a><br></br>
-                <a href="/chatbot">Chatbot</a><br></br>
+                <NavLink to="/job">Jobs</NavLink><br></br>
+                <NavLink to="/browse"  onClick={()=>{dispatch(setFilterQuery("")); dispatch(setSearchedQuery(""))}}  >browes</NavLink><br></br>
+                <NavLink to="/chatbot">Chatbot</NavLink><br></br>
                 <NavLink to="/login" ><a >Login</a></NavLink><br></br>
                 <NavLink to="/signup"><a >Signup</a></NavLink>
               </div>)}
