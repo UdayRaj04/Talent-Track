@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Navbar from './navbar'
 import HeroSection from './HeroSection'
 import useGetAllJobs from '../hooks/useGetAllJobs'
 import { useSelector } from 'react-redux'
