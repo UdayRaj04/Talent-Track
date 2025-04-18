@@ -63,7 +63,6 @@ const Jobs = () => {
 
     return (<>
         <div className="ab">
-        <div className='bc'>
         {isMobile && (
         <button
           type="button"
@@ -81,7 +80,7 @@ const Jobs = () => {
         }}
       >
         <Filtercard />
-      </div></div>
+      </div>
             <div className="arr">
             {/* {
             filterJobs.map((job) => (
