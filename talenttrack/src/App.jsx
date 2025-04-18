@@ -1,10 +1,10 @@
 import React from "react"
 import "./App.css"
 import { BrowserRouter,Routes,Route, replace } from 'react-router-dom'
-import Login from "./components/login"
+import Login from "./components/Login"
 import Signup from "./components/Signup"
 import Home from "./components/Home"
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Jobs from "./components/Jobs"
 import Browse from "./components/Browse"
