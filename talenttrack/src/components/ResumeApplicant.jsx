@@ -33,7 +33,7 @@ const ResumeApplicant = () => {
 //       .catch((error) => console.error("Error fetching user data:", error));
 //   }, [id]);
 //const res = await 
-axios.get(`http://localhost:5000/resumeapplicant/${id}`).then((res)=>{
+axios.get(`https://talenttrack-api.onrender.com/resumeapplicant/${id}`).then((res)=>{
     console.log("User Data:", res.data);
      setUser(res.data);
 }).catch((error) => console.error("Error fetching user data:", error));

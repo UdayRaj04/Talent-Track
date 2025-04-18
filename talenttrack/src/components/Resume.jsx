@@ -76,7 +76,7 @@ const Resume = () => {
             if (res.data.success) {
                 console.log("ISSUE in updating");
                 //dispatch(setUser(res.data.user));
-                await axios.get(`http://localhost:5000/resumeapplicant/${user._id}`).then((res)=>{
+                await axios.get(`https://talenttrack-api.onrender.com/resumeapplicant/${user._id}`).then((res)=>{
                     console.log("User Data:", res.data);
                     dispatch(setUser(res.data));
                 }).catch((error) => console.error("Error fetching user data:", error));
