@@ -36,10 +36,10 @@ const Navbar = () => {
         {user &&
           <div class="popover__wrapper">
             <button class="popover__button">
-              <img src="../../public/profile.png" alt="Avatar" class="avatar"></img></button>
+              <img src="profile.png" alt="Avatar" class="avatar"></img></button>
             <div class="popover__content">
               <div class="abc">
-                <img src="../../public/avatar.png" alt="Avatar" class="avatar"></img>
+                <img src="avatar.png" alt="Avatar" class="avatar"></img>
                 <p>User:- {user?.fullname}</p>
               </div>
               <p>Bio:- {user?.profile?.bio}</p>
@@ -56,7 +56,7 @@ const Navbar = () => {
         }</div>
       <div className="y">
         <div className="z">
-          <img className="logo" src="../../public/logo.png" alt="Logo"></img>
+          <img className="logo" src="logo.png" alt="Logo"></img>
           <h1 id='ab'>Talent<span id="a" >track</span></h1>
         </div>
         <div className="xx">
@@ -116,7 +116,7 @@ const Navbar = () => {
       <div className='mobile'>
         <div class="popover__wrapper">
           <button class="popover__button">
-            <img src="../../public/profile.png" alt="Avatar" class="avatar"></img></button>
+            <img src="profile.png" alt="Avatar" class="avatar"></img></button>
           <div class="popover__content">
             <div>
               {/* <ul className="x">
@@ -159,7 +159,7 @@ const Navbar = () => {
               user &&
               <div className="popover__wrapperss">
                 <div className="abc">
-                  <img src="../../public/avatar.png" alt="Avatar" className="avatar" />
+                  <img src="avatar.png" alt="Avatar" className="avatar" />
                   <p>User:- {user?.fullname}</p>
                 </div>
                 <p>Bio:- {user?.profile?.bio}</p>
@@ -177,7 +177,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="z">
-          <img className="logo" src="../../public/logo.png"></img>
+          <img className="logo" src="logo.png"></img>
           <h1 id='aba'>Talent<span id="aa" >track</span></h1>
         </div>
 
