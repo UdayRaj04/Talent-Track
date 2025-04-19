@@ -36,7 +36,6 @@ const Login = () => {
             console.log("try");
             console.error("erroring");
             const done = await axios.post(`${USER_API_END_POINT}/login`, data, {
-                credentials: 'include',
                 headers: { "Content-Type": "application/json" },
                 withCredentials: true,
             });
