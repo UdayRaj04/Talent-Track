@@ -152,7 +152,7 @@ export const login = async (req, res) => {
             maxAge: 1 * 24 * 60 * 60 * 1000,  // 1 day expiration
             httpOnly: true,                    // Ensures cookie is inaccessible to JavaScript (prevents XSS attacks)
             secure: true,
-            sameSite: 'strict',                // Cookies will only be sent to the same origin
+            sameSite: "None",                // Cookies will only be sent to the same origin
         }).json({
             message: `Welcome back ${user.fullname}`,
             success: true,
