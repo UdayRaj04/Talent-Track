@@ -9,6 +9,9 @@ import companyRoute from "./routes/company.routes.js";
 import jobRoute from "./routes/job.routes.js";
 import applicationRoute from "./routes/application.routes.js";  
 
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 dotenv.config();
 
 const app = express();
@@ -40,6 +43,18 @@ app.use("/resumeapplicant", userRoute);
 app.use("/talenttrack/company", companyRoute);
 app.use("/talenttrack/job", jobRoute);
 app.use("/talenttrack/application", applicationRoute);  
+
+
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Serve static frontend
+app.use(express.static(path.join(__dirname, 'talenttrack/build'))); // adjust path if needed
+
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'talenttrack', 'build', 'index.html'));
+});
 
 
 
