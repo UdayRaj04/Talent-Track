@@ -20,9 +20,16 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://talenttrack-hzjq.onrender.com',  // Your frontend URL
+    origin: 'https://talent-track-green.vercel.app',  // Your frontend URL
     credentials: true,                // Allow credentials (cookies, authorization headers, etc.)
 };
+
+// const corsOptions = {
+//     origin: 'https://talenttrack-hzjq.onrender.com',  // Your frontend URL
+//     credentials: true,                // Allow credentials (cookies, authorization headers, etc.)
+// };
+
+
 app.use(cors(corsOptions)); // Apply CORS middleware
 
 // API routes
