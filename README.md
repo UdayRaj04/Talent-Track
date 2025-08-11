@@ -14,6 +14,12 @@ TalentTrack is a MERN-stack job portal platform built with React (frontend) and 
 - Admin Controls: Admins can approve companies, manage job posts, and oversee applications.
 - Chatbot: Integrated chatbot for user assistance.
 
+## 📸 Screenshot
+
+![App Screenshot](appshot.png) 
+
+---
+
 ## 🏗️ Tech Stack
 
 - **Frontend**: React.js, HTML5, CSS3
