@@ -1,6 +1,8 @@
 # TalentTrack
 
 TalentTrack is a MERN-stack job portal platform built with React (frontend) and Node.js/Express (backend).
+🌐 **Live Website**: [https://talenttrack-hzjq.onrender.com](https://talenttrack-hzjq.onrender.com)
+
 
 ## Features
 
@@ -12,6 +14,11 @@ TalentTrack is a MERN-stack job portal platform built with React (frontend) and 
 - Admin Controls: Admins can approve companies, manage job posts, and oversee applications.
 - Chatbot: Integrated chatbot for user assistance.
 
+## 🏗️ Tech Stack
+
+- **Frontend**: React.js, HTML5, CSS3
+- **Frontend**: Node.js, Express, MongoDB
+- **Hosting**: Render Hosting
 
 ## Getting Started  Clone the repository
  ```sh
