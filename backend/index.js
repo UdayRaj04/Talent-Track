@@ -23,7 +23,10 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://talenttrack-hzjq.onrender.com',  // Your frontend URL
+    origin: [
+    'https://talenttrack-hzjq.onrender.com',  // Your first frontend URL
+    'https://talent-frontend-coral.vercel.app'             // Your second frontend URL
+  ],// Your frontend URL
     credentials: true,                // Allow credentials (cookies, authorization headers, etc.)
 };
 
